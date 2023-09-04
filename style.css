@@ -1,0 +1,69 @@
+*{
+    margin: auto;
+    box-sizing: border-box;
+}
+.markermain{
+    height: auto;
+    margin-top: 20%;
+    position: fixed;
+    left: 42.8vw;
+}
+.marker{
+    height: 4vh;
+    width: 32vh;
+    margin-bottom: 1vh;
+}
+.marker1{
+    background: rgb(114,0,0);
+    background: linear-gradient(180deg, rgba(114,0,0,1) 0%, rgba(255,47,1,1) 50%, rgba(114,0,0,1) 100%);
+    box-shadow: 3px 3px 20px rgb(189, 96, 96);
+}
+.marker2{
+    background: rgb(23,114,0);
+    background: linear-gradient(180deg, rgba(23,114,0,1) 0%, rgba(121,255,1,1) 50%, rgba(23,114,0,1) 100%);
+    box-shadow: 3px 3px 20px rgb(122, 194, 105);
+}
+.marker3{
+    background: rgb(7,23,112);
+    background: linear-gradient(180deg, rgba(7,23,112,1) 0%, rgba(1,177,255,1) 50%, rgba(0,19,120,1) 100%);
+    box-shadow: px 2px 20px rgb(115, 126, 188);
+}
+.boxtransparent{
+    height: 4vh;
+    width: 18vh;
+    background-color: rgba(255, 255, 255, 0.555);
+    position: fixed;
+}
+.bt1{
+    left: 48vw;
+    bottom: 52.9vh;
+    height: 3.9vh;
+}
+.bt2{
+    left: 48vw;
+    bottom: 47.8vh;
+    height: 4.1vh;
+}
+.bt3{
+    left: 48vw;
+    bottom: 42.8vh;
+    height: 4.1vh;
+}
+.box{
+    width: 1vw;
+    height: 4vh;
+    border-right: 5px solid black;
+    border-left: 5px solid black;
+    position: fixed;
+}
+.box1{
+    height: 3.9vh;
+}
+.box2{
+    height: 4.1vh;
+    top: 48.1vh;
+}
+.box3{
+    height: 4.1vh;
+    top: 53.1vh;
+}
